@@ -1,4 +1,4 @@
-## 📘 README.md (versi profesional dan lengkap)
+## 📘 README.md 
 
 ````markdown
 # 🧾 TodoList REST API (Laravel + Sanctum)
@@ -30,20 +30,12 @@ API ini menyediakan fitur CRUD untuk mengelola tugas (tasks) per pengguna yang s
 Dokumentasi API ini dibuat dan dipublikasikan menggunakan **Postman**.  
 Kamu bisa mengaksesnya secara publik di tautan berikut:
 
-🔗 **Public API Documentation:** [Klik di sini](https://documenter.getpostman.com/view/48833633/2sB3WjxNib)  
-*(ganti `YOUR_PUBLIC_LINK` dengan link public Postman Collection kamu)*
-
----
 
 ## 🧱 Entity Relationship Diagram (ERD)
 Berikut adalah struktur database yang digunakan dalam proyek ini.
 
 📊 **File ERD:** [`app/ERD/ER-DIAGRAM_TODOS.drawio`](./app/ERD/ER-DIAGRAM_TODOS.drawio)
 
-![ER Diagram](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/app/ERD/ER-DIAGRAM_TODOS.png)
-> *(opsional: kamu bisa export .drawio menjadi .png dan push ke repo biar bisa tampil seperti ini)*
-
----
 
 ## 🔧 Installation Guide
 1. Clone repository ini:
@@ -98,8 +90,8 @@ Berikut adalah struktur database yang digunakan dalam proyek ini.
 ## 🧑‍💻 Author
 
 **Nama:** [Sheiza Fakhru Rasyid]
-**GitHub:** [@yourusername](https://github.com/sheiza31)
-**Email:** [youremail@example.com](mailto:seizzafr@example.com)
+**GitHub:** (https://github.com/sheiza31)
+**Email:** (mailto:seizzafr@example.com)
 
 ---
 
