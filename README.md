@@ -95,30 +95,6 @@ Berikut adalah struktur database yang digunakan dalam proyek ini.
 
 ---
 
-## 📜 License
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
-````
-
----
-
-### 🔧 Langkah-langkah selanjutnya:
-
-1. Buka file `README.md` kamu di root project.
-2. Hapus isi lama (kalau ada).
-3. Paste template di atas.
-4. Ganti:
-   - `YOUR_PUBLIC_LINK` → link publik Postman Collection kamu.
-   - `YOUR_USERNAME` dan `YOUR_REPO_NAME` → sesuai GitHub kamu.
-   - `Nama Kamu` dan `Email` sesuai identitasmu.
-5. Commit dan push ke GitHub:
-   ```bash
-   git add README.md
-   git commit -m "docs: update README.md with public API docs and ERD info"
-   git push origin main
-````
-
----
 
 
