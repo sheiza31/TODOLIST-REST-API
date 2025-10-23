@@ -89,7 +89,7 @@ Berikut adalah struktur database yang digunakan dalam proyek ini.
 
 ## 🧑‍💻 Author
 
-**Nama:** [Sheiza Fakhru Rasyid]
+**Nama:** Sheiza Fakhru Rasyid
 **GitHub:** (https://github.com/sheiza31)
 **Email:** (mailto:seizzafr@example.com)
 
