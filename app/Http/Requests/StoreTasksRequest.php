@@ -4,14 +4,14 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class LogoutRequest extends FormRequest
+class StoreTasksRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,16 @@ class LogoutRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+           'title' => 'required|string',
+           'description' => 'required|string',
+           
+        ];
+    }
+
+    public function messages() :array {
+        return [
+            'title.required' => 'Title is required',
+            'description.required' => 'Description is required',
         ];
     }
 }
