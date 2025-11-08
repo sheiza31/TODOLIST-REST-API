@@ -1,71 +1,64 @@
-## 📘 README.md 
-
-````markdown
 # 🧾 TodoList REST API (Laravel + Sanctum)
 
-Proyek ini adalah RESTful API untuk aplikasi **TodoList** yang dibangun menggunakan **Laravel 11** dan **Laravel Sanctum** untuk autentikasi token berbasis Bearer Token.  
-API ini menyediakan fitur CRUD untuk mengelola tugas (tasks) per pengguna yang sudah terautentikasi.
+This project is a **RESTful API** for a **TodoList** application built using **Laravel 11** with **Laravel Sanctum** for token-based authentication via Bearer Tokens.  
+The API provides full CRUD functionality to manage user-specific tasks with secure access control.
 
 ---
 
 ## 🚀 Features
-- 🔐 Register, Login, dan Logout menggunakan Laravel Sanctum
-- ✅ CRUD (Create, Read, Update, Delete) Task
-- 👤 Setiap user hanya bisa mengakses task miliknya sendiri
-- 📄 Validasi request dengan FormRequest
-- 🧱 Struktur kode rapi dan mengikuti standar REST API
+- 🔐 User Registration, Login, and Logout using Laravel Sanctum  
+- ✅ CRUD (Create, Read, Update, Delete) for Tasks  
+- 👤 Each user can only access their own tasks  
+- 📄 Request validation using FormRequest  
+- 🧱 Clean and structured REST API architecture  
 
 ---
 
 ## 🧭 Tech Stack
-- **Framework:** Laravel 11
-- **Authentication:** Laravel Sanctum
-- **Database:** MySQL
-- **Documentation:** Postman Public Documentation
-- **Version Control:** Git + GitHub
+- **Framework:** Laravel 11  
+- **Authentication:** Laravel Sanctum  
+- **Database:** MySQL  
+- **Documentation:** Postman Public Documentation  
+- **Version Control:** Git + GitHub  
 
 ---
 
-## 🗂️ API Documentation
-Dokumentasi API ini dibuat dan dipublikasikan menggunakan **Postman**.  
-Kamu bisa mengaksesnya secara publik di tautan berikut:
-
-
 ## 🧱 Entity Relationship Diagram (ERD)
-Berikut adalah struktur database yang digunakan dalam proyek ini.
+Below is the database structure used in this project.
 
-📊 **File ERD:** [`app/ERD/ER-DIAGRAM_TODOS.drawio`](./app/ERD/ER-DIAGRAM_TODOS.drawio)
+📊 **ERD File:** [`app/ERD/ER-DIAGRAM_TODOS.drawio`](./app/ERD/ER-DIAGRAM_TODOS.drawio)
 
+---
 
 ## 🔧 Installation Guide
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-````
 
-2. Masuk ke folder project:
-
+1. Clone this repository:
    ```bash
-   cd YOUR_REPO_NAME
+   https://github.com/sheiza31/TODOLIST-REST-API.git
    ```
-3. Install dependencies:
 
+2. Navigate to the project directory:
+   ```bash
+   cd TODOLIST-REST-API
+   ```
+
+3. Install dependencies:
    ```bash
    composer install
    ```
-4. Buat file `.env` dan konfigurasi database:
 
+4. Create the `.env` file and configure the database:
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
-5. Jalankan migrasi database:
 
+5. Run database migrations:
    ```bash
    php artisan migrate
    ```
-6. Jalankan server:
 
+6. Start the development server:
    ```bash
    php artisan serve
    ```
@@ -74,26 +67,27 @@ Berikut adalah struktur database yang digunakan dalam proyek ini.
 
 ## 🧪 Example Endpoints
 
-| Method | Endpoint          | Description                       |
-| ------ | ----------------- | --------------------------------- |
-| POST   | `/api/register`   | Register user baru                |
-| POST   | `/api/login`      | Login dan mendapatkan token       |
-| POST   | `/api/logout`     | Logout dan hapus token aktif      |
-| GET    | `/api/tasks`      | Menampilkan semua task milik user |
-| POST   | `/api/tasks`      | Membuat task baru                 |
-| GET    | `/api/tasks/{id}` | Menampilkan detail task tertentu  |
-| PUT    | `/api/tasks/{id}` | Update status task                |
-| DELETE | `/api/tasks/{id}` | Hapus task                        |
+| Method | Endpoint          | Description                        |
+| ------ | ----------------- | ---------------------------------- |
+| POST   | `/api/register`   | Register a new user                |
+| POST   | `/api/login`      | Log in and obtain a token          |
+| POST   | `/api/logout`     | Log out and revoke active token    |
+| GET    | `/api/tasks`      | Retrieve all tasks for the user    |
+| POST   | `/api/tasks`      | Create a new task                  |
+| GET    | `/api/tasks/{id}` | Retrieve details of a specific task|
+| PUT    | `/api/tasks/{id}` | Update a task’s status             |
+| DELETE | `/api/tasks/{id}` | Delete a task                      |
 
 ---
 
 ## 🧑‍💻 Author
 
-**Nama:** Sheiza Fakhru Rasyid
-**GitHub:** (https://github.com/sheiza31)
-**Email:** (mailto:seizzafr@example.com)
+**Name:** Sheiza Fakhru Rasyid  
+**GitHub:** [sheiza31](https://github.com/sheiza31)  
+**Email:** [seizzafr@example.com](mailto:seizzafr@example.com)
 
 ---
+
 
 
 
